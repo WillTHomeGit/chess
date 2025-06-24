@@ -49,12 +49,12 @@ You must have [Node.js](https://nodejs.org/) (version 18 or later) and a package
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://your-repository-url/your-project.git
+    git clone https://github.com/WillTHomeGit/chess.git
     ```
 
 2.  **Navigate to the project directory:**
     ```sh
-    cd your-project
+    cd chess
     ```
 
 3.  **Install NPM packages:**
