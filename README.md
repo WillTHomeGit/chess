@@ -2,8 +2,6 @@
 
 A fully functional chess game built from the ground up with TypeScript and rendered on an HTML Canvas. This project emphasizes a clean, event-driven architecture with a clear separation between game logic, state management, and view rendering.
 
-![Gameplay Screenshot](./screenshot.png)
-*(Replace this with a screenshot of your application)*
 
 ## About The Project
 
