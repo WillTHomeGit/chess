@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Game</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="game-info">
+        <h2 id="turn-indicator">White to move</h2>
+      </div>
+      <!-- MODIFIED: Replaced single canvas with a container for layers -->
+      <div id="canvas-container" style="position: relative;">
+        <!-- Layer 1: Static board and coordinates -->
+        <canvas id="board-layer" style="position: absolute; left: 0; top: 0; z-index: 1;"></canvas>
+        <!-- Layer 2: Pieces and state highlights (check, last move) -->
+        <canvas id="pieces-layer" style="position: absolute; left: 0; top: 0; z-index: 2;"></canvas>
+        <!-- Layer 3: Dragging piece, valid moves, promotion UI (user interaction) -->
+        <canvas id="dynamic-layer" style="position: absolute; left: 0; top: 0; z-index: 3;"></canvas>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
